@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2021-01-13T15:09:44.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="P7BtytFc5wPwteZutWcQ" version="14.1.8" type="github">
+  <diagram id="7p8IP8F3BR2K26ioIEZZ" name="Page-1">
+    <mxGraphModel dx="898" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="29XQciZqfDBYRx2GGHrr-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="60" width="530" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="29XQciZqfDBYRx2GGHrr-2" value="Agent de voyage" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="29XQciZqfDBYRx2GGHrr-3" value="&lt;span style=&quot;font-family: &amp;#34;nunito sans&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;réserver&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;nunito sans&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Une chambre d&#39;hôtel&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="110" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="29XQciZqfDBYRx2GGHrr-4" value="&lt;span style=&quot;font-family: &amp;#34;nunito sans&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;réserver&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;nunito sans&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Un taxi pour l&#39;amener de l&#39;aéroport&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="210" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="29XQciZqfDBYRx2GGHrr-5" value="&lt;span style=&quot;font-family: &amp;#34;nunito sans&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;réserver&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;nunito sans&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Un billet de train pour transporter&amp;nbsp;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="29XQciZqfDBYRx2GGHrr-8" value="&lt;span style=&quot;font-family: &amp;#34;nunito sans&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255) ; font-size: 13px&quot;&gt;organisation des voyages&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="240" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="29XQciZqfDBYRx2GGHrr-10" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="29XQciZqfDBYRx2GGHrr-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="280" as="sourcePoint" />
+            <mxPoint x="340" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29XQciZqfDBYRx2GGHrr-11" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="29XQciZqfDBYRx2GGHrr-8" target="29XQciZqfDBYRx2GGHrr-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="280" as="sourcePoint" />
+            <mxPoint x="500" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29XQciZqfDBYRx2GGHrr-12" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="29XQciZqfDBYRx2GGHrr-8" target="29XQciZqfDBYRx2GGHrr-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="280" as="sourcePoint" />
+            <mxPoint x="500" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29XQciZqfDBYRx2GGHrr-13" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="29XQciZqfDBYRx2GGHrr-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="280" as="sourcePoint" />
+            <mxPoint x="613" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29XQciZqfDBYRx2GGHrr-16" value="System d&#39;agance de voyage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="70" width="130" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
